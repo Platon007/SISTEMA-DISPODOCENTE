@@ -90,13 +90,13 @@ public class HomeController {
           //String sql = "select * from usuario";
           //List datos = this.jdbcTemplate.queryForList(sql);
           //mav.addObject("datos",datos);
-          return new ModelAndView("escuelas/escuelas", "name", name);  
+          return new ModelAndView("disponibilidad/disponibilidad", "name", name);  
           }else if (name2.equals(datosNom.get(1).toString()) && pass2.equals(datosPass.get(1).toString()) ) {
                   String Message = "Login Exitoso";
           //String sql = "select * from usuario";
           //List datos = this.jdbcTemplate.queryForList(sql);
           //mav.addObject("datos",datos);
-          return new ModelAndView("escuelas/escuelas", "name", name); 
+          return new ModelAndView("disponibilidad/disponibilidad", "name", name); 
           }else{
             String Message = "Usuario Incorrecto";
             return new ModelAndView("home/home", "m", Message); 

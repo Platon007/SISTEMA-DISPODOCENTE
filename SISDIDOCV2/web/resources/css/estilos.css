@@ -598,29 +598,23 @@ color: white;
 	padding:8px;
 	border-radius: 5px;
 }
-
-.col-md-1{
-	width: 70px;
-	height: 70px;
-	background: orange;
-	border: solid 1px gray;
-	padding-top: 20px;
-}
-
-.col-md-1:hover{
-	background: red;
-}
+/*
 .row{
 	display : flex;
 	align-items: center;
 	flex-direction: row;
 	justify-content: space-between;
 }
+*/
 .container{
 	border-top: solid 1px gray;
 	border-bottom: solid 1px gray;
 	padding: 5px;
 	text-align: center;
+}
+.grupohorario{
+	padding: 50px;
+	margin-left: 250px;
 }
 #pieinicio{
     width: 100%;
@@ -630,4 +624,23 @@ color: white;
     background-color: #2a2730;
 }
 
+// estilos para disponibilidad de horarios
+.col-md-1{
+	width: 120px;
+	height: 50px;
+        
+}
+.col-md-1.nopintar{
+	background: black;
+	color: white;
+        width: 120px;
+}
+.col-md-1.pintar{
+	background: graytext;
+	color: white;
+        width: 120px;
+}
+.col-md-1.pintar:hover{
+	background: red;
+}
 

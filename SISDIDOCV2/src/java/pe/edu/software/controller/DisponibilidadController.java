@@ -5,6 +5,8 @@
  */
 package pe.edu.software.controller;
 
+import com.sun.xml.rpc.processor.modeler.j2ee.xml.string;
+import org.hibernate.validator.constraints.NotBlank.List;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -32,5 +34,6 @@ public class DisponibilidadController {
         mav.setViewName("disponibilidad/disponibilidad");
         return mav;
     }
+   
     
 }
